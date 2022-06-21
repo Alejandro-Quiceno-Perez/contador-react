@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #413F42;
+    text-align: center;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    margin: 30px 0 20px 0;
+    font-size: 60px;
+    color: #F73D93;
+}
+
+.titulo-contador {
+    color: #7F8487;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.btn-aumentar {
+    background-color: #16003B;
+    color: #7F8487;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    outline: none;
+    border: 0;
+    margin: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.btn-aumentar:hover {
+    box-shadow: 0 0 8px #F73D93;
+}
+
+.btn-reset {
+    background-color: tomato;
+    color: #7F8487;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    outline: none;
+    border: 0;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-reset:hover {
+    box-shadow: 0 0 8px #16003B;
+}
+
+.btn-disminuir {
+    background-color: #F73D93;
+    color: #7F8487;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    outline: none;
+    border: 0;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.btn-disminuir:hover {
+    box-shadow: 0 0 8px #16003B;
+}
+
+.menor {
+    color: tomato;
+}
+.mayor {
+    color: limegreen;
+}
